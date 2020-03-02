@@ -1,5 +1,6 @@
 body{
     font-family: Roboto, sans-serif;
+    background: url("../images/dust_scratches.png") repeat;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -16,22 +17,26 @@ header {
     border-bottom: 2px solid #cccccc;
     padding:0;
 }
-.navbar{
+.navbar {
     padding:0
 }
 
-.navbar-brand {
+.navbar-light{
+    padding:0;
+}
+
+.navbar-light .navbar-brand {
     background-color: #4aaaa5;
     padding: 20px;
     color: #ffffff;
 }
 
-.nav-link, .navbar-toggler {
-    color: #777777;
+a.nav-link, .navbar-toggler {
+    color: #777777; !important
 }
 
-.nav-link:hover{
-    color: #4aaaa5;
+a.nav-link:hover{
+    color: #4aaaa5; !important
 }
 
 #content {
@@ -53,7 +58,7 @@ header {
 
 
 img.about{
-    width:200px;
+
 }
 
 
